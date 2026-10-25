@@ -1,0 +1,40 @@
+# Build output
+target/
+out/
+.mvn/timing.properties
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and local runtime files
+*.log
+*.lck
+hs_err_pid*
+
+# Local configuration and secrets
+application-local.properties
+application-local.yml
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# External assignment context
+CONTEXT.md
+gemini-context.txt
+*.pdf
+
+# Generated archives and reports
+*.class
+*.jar
+coverage/
